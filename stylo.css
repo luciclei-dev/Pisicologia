@@ -10,7 +10,7 @@ header {
     filter: brightness(80%);
     width: 100%;
     height: 100vh;
-    background-image: url(/img/image-12jpg.jpg);
+    background-image: url(image-12jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
