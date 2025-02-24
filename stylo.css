@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(235, 229, 229);
+}
+
+header {
+
+    filter: brightness(80%);
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/image-12jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo,
+h1 {
+    color: white;
+    font-size: 45px;
+    margin-left: 30px;
+    margin-top: 0px;
+    text-shadow: 2px 1px 1px black;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+nav ul {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 1px 1px rgb(36, 34, 34);
+}
+
+ul :hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 2px 2px 1px black;
+    cursor: pointer;
+}
+
+.nav-button {
+    margin: 30px 50px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(242, 164, 112);
+}
+
+button:hover {
+    background-color: rgb(209, 137, 89);
+    color: white;
+    cursor: pointer;
+}
+
+#texto-banner {
+    font-size: 25px;
+    width: 800px;
+    margin-left: px;
+    color: rgb(253, 253, 250);
+    text-shadow: 2px 2px 4px rgb(33, 32, 32);
+}
+
+.h2-banner {
+    position: absolute;
+    bottom: 38px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(33, 32, 32);
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    width: 700px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* Alinha os elementos verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Faz a section ocupar toda a altura da tela */
+    text-align: center;
+    /* Centraliza o texto dentro de h2 e p */
+}
+
+/* Estilo para o h2 */
+#titulo-aboradagem {
+    margin-bottom: 20px;
+    /* Espaço entre o título e o parágrafo */
+    color: black;
+    font-size: 45px;
+
+}
+
+/* Estilo para o p */
+.paragrafo-abordagem {
+    max-width: 500px;
+    /* Limita a largura do parágrafo para evitar que fique muito largo */
+    line-height: 1.6;
+    /* Aumenta o espaçamento entre as linhas para melhorar a leitura */
+    font-size: 20px;
+}
