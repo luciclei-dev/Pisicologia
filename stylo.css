@@ -1,16 +1,19 @@
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(235, 229, 229);
+    height: 100vh;
+    
 }
 
 header {
 
-    filter: brightness(80%);
-    width: 100%;
-    height: 100vh;
-    background-image: url(image-12jpg.jpg);
+    filter: brightness(87%);
+    max-width: 100%;
+    height:100vh;
+    background-image: url(../img/image-terap.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,23 +24,30 @@ header {
 h1 {
     color: white;
     font-size: 45px;
-    margin-left: 30px;
+    margin: 0;
     margin-top: 0px;
     text-shadow: 2px 1px 1px black;
-
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
+}
+.button-banner{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    
 }
 
 .nav-bar {
     width: 800px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
-
+   
 }
 
 nav ul {
@@ -51,13 +61,13 @@ nav ul {
 }
 
 ul,
-li,
 a {
     text-decoration: none;
     list-style-type: none;
     color: white;
     font-size: 23px;
     text-shadow: 2px 1px 1px rgb(36, 34, 34);
+    margin: 0;
 }
 
 ul :hover {
@@ -69,28 +79,31 @@ ul :hover {
 }
 
 .nav-button {
-    margin: 30px 50px;
+    padding-top: 50px;
+    
 }
 
 button {
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid white;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
     font-weight: bold;
     color: white;
-    background-color: rgb(242, 164, 112);
+    background-color: rgb(240, 163, 112);
+    transition: opacity 0.3s ease;
 }
 
 button:hover {
-    background-color: rgb(209, 137, 89);
+    background-color: rgb(189, 113, 63);
     color: white;
     cursor: pointer;
+    opacity: 0.7;
+
 }
 
 #texto-banner {
     font-size: 25px;
     width: 800px;
-    margin-left: px;
     color: rgb(253, 253, 250);
     text-shadow: 2px 2px 4px rgb(33, 32, 32);
 }
@@ -106,34 +119,81 @@ button:hover {
     width: 700px;
 }
 
-section {
+.container-abordagem {
     display: flex;
     flex-direction: column;
-    /* Alinha os elementos verticalmente */
     align-items: center;
-    /* Centraliza horizontalmente */
     justify-content: center;
-    /* Centraliza verticalmente */
     height: 100vh;
-    /* Faz a section ocupar toda a altura da tela */
     text-align: center;
-    /* Centraliza o texto dentro de h2 e p */
+    padding-bottom: 100px;
 }
 
-/* Estilo para o h2 */
-#titulo-aboradagem {
-    margin-bottom: 20px;
-    /* Espaço entre o título e o parágrafo */
+.titulo-aboradagem {
+    padding-bottom: 20px;
     color: black;
     font-size: 45px;
+    font-weight: normal;
 
 }
 
-/* Estilo para o p */
 .paragrafo-abordagem {
     max-width: 500px;
-    /* Limita a largura do parágrafo para evitar que fique muito largo */
     line-height: 1.6;
-    /* Aumenta o espaçamento entre as linhas para melhorar a leitura */
     font-size: 20px;
+
+}
+
+.container-consulta-paciente {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.texto-consulta-paciente {
+    width: 500px;
+    text-align: center;
+}
+
+.container-localizacao {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+
+iframe {
+    width: 450px;
+    height: 350px;
+}
+
+.serviços {
+    background-color: #495A58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+
+}
+
+#serviços {
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+li.lista-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    
+}
+.container-lista-itens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
