@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="css/stylo.css">
     <title>Document</title>
 </head>
 
@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <div class="nav-bar">
-                <h1 class="logo">Clove therapy</h1>
+                <h1 class="logo">Vitta Terapia</h1>
                 <nav>
                     <ul>
                         <li> <a href="">Sobre</a></li>
@@ -23,13 +23,13 @@
                     </ul>
                 </nav>
             </div>
-            <div class="nav-button">
+            <div class="button-banner">
                 <button>COMECE AGORA</button>
             </div>
 
         </div>
         <div class="h2-banner">
-            <h2>Conheça a Clove, um <br> coletivo de saúde mental. </h2>
+            <h2>Conheça a Vitta, um <br> coletivo de saúde mental. </h2>
             <p id="texto-banner">Receba cuidados médicos de saúde mental acessíveis e personalizados presencialmente
                 ou
                 no aconchego de sua casa.</p>
@@ -37,30 +37,78 @@
 
     </header>
     <main>
-       
-        <section >
-            <h2 id="titulo-aboradagem">Nossa abordagem</h2>
-                <p class="paragrafo-abordagem">Somos um grupo de psicólogos e psiquiatras doutorados e prestamos ótimos serviços de cuidados de saúde
-                    mental. Por ser um coletivo de saúde mental, fornecemos terapia, gerenciamento de medicamentos, coaching
-                    e muito mais aos nossos membros. Conheça um dos nossos médicos para receber os devidos cuidados em um
-                    atendimento presencial ou on-line.</p>
-                    <div class="nav-button">
-                        <button>Saiba mais</button>
-                    </div>
+
+        <section class="container-abordagem">
+            <h2 class="titulo-aboradagem">Nossa abordagem</h2>
+            <p class="paragrafo-abordagem">Somos um grupo de psicólogos e psiquiatras doutorados e prestamos ótimos
+                serviços de cuidados de saúde
+                mental. Por ser um coletivo de saúde mental, fornecemos terapia, gerenciamento de medicamentos, coaching
+                e muito mais aos nossos membros. Conheça um dos nossos médicos para receber os devidos cuidados em um
+                atendimento presencial ou on-line.</p>
+            <div class="nav-button">
+                <button>SAIBA MAIS </button>
+            </div>
             </div>
         </section>
-        <section class="consulta-paciente">
-            <img src="ambiente-de-consulta.jpg" width="450">
-           
-                <h2 id="titulo-aboradagem">Disponibilizamos um espaço seguro e confortável</h2>
-                <p class="paragrafo-abordagem">Todos os atendimentos são realizados em nosso espaço reconfortante de salas totalmente privadas, com chá e água de cortesia e cuidados personalizados.</p>
-           
+        <section>
+            <div class="container-consulta-paciente">
+                <img src="img/ambiente-de-consulta.jpg" width="400" height="400"
+                    alt="imagem de um ambiente de consulta">
+                <div class="texto-consulta-paciente">
+                    <h2 class="titulo-aboradagem">Disponibilizamos um espaço seguro e confortável</h2>
+                    <p class="paragrafo-abordagem">Todos os atendimentos são realizados em nosso espaço reconfortante de
+                        salas totalmente privadas, com chá e água de cortesia e cuidados personalizados.</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container-localizacao">
+
+                <div>
+                    <h2 class="titulo-aboradagem">Opções presenciais <br>e remotas</h2>
+                    <p class="paragrafo-abordagem">Oferecemos consultas presenciais e remotas. Você pode escolher entre
+                        terapia presencial ou on-line, dependendo do que for mais conveniente para você.
+                        Nosso escritório encontra-se em Manhattan. Não consegue comparecer pessoalmente? Não se
+                        preocupe, oferecemos serviços de terapia on-line.
+                    </p>
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.05065281544!2d-74.30917398415902!3d40.69719334236263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNova%20Iorque%2C%20NY%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1745103934492!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="serviços">
+                <h2 id="serviços">Nossos serviços</h2>
+
+                <div class="container-lista-itens">
+                    <li class="lista-itens">
+                        <img src="img/Thrapy+copy+2.png" width="250" alt="">
+                        <p>Terapia</p>
+                    </li>
+                    <li class="lista-itens">
+                        <img src="img/Pills+copy+2.png" width="250" alt="">
+                        <p>Psiquiatria</p>
+                    </li>
+                    <li class="lista-itens">
+                        <img src="img/Coaching+copy.png" width="250" alt="">
+                        <p>Treinamento</p>
+                    </li>
+                    <li class="lista-itens">
+                        <img src="img/Accupuncture+copy+2.png" width="250" alt="">
+                       <p>Acupuntura</p> 
+                    </li>
+                    
+                </div>
+                <div class="nav-button">
+                    <button>SAIBA MAIS</button>
+                </div>
+            </div>
         </section>
     </main>
-
-    <main>
-
-    </main>
+   <script src="script.js"></script>
 </body>
-
 </html>
